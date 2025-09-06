@@ -1,0 +1,100 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Spline+Sans%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+</head>
+<body class="bg-[#111714]">
+<div class="relative flex size-full min-h-screen flex-col text-white dark group/design-root overflow-x-hidden" style='font-family: "Spline Sans", "Noto Sans", sans-serif;'>
+
+  <!-- ✅ Navbar Section -->
+  <header class="bg-[#111714] border-b border-gray-800">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+      <!-- Logo / Name -->
+      <div class="text-2xl font-bold text-white">Ishvari</div>
+
+      <!-- Navigation Links -->
+     <nav class="hidden md:flex space-x-8">
+         <a href="homepage.html" class="text-gray-300 hover:text-[#38e07b] transition">Home</a>
+        <a href="about.html" class="text-gray-300 hover:text-[#38e07b] transition">About  </a>
+        <a href="projects.html" class="text-gray-300 hover:text-[#38e07b] transition">Projects</a>
+        <a href="experience.html" class="text-gray-300 hover:text-[#38e07b] transition">Experience</a>
+        <a href="contact.html" class="text-gray-300 hover:text-[#38e07b] transition">Contact</a>
+      </nav>
+
+      <!-- Social Icons -->
+      <div class="flex space-x-4">
+        <a href="https://github.com/" target="_blank" class="p-2 rounded-full hover:bg-gray-800 transition">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="h-6 w-6">
+        </a>
+        <a href="https://linkedin.com/" target="_blank" class="p-2 rounded-full hover:bg-gray-800 transition">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="h-6 w-6">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ✅ Main Content -->
+  <div class="layout-container flex h-full grow flex-col">
+    <div class="px-4 py-16 sm:px-6 lg:px-8 flex flex-1 justify-center">
+      <div class="layout-content-container flex flex-col max-w-7xl flex-1">
+        <div class="text-center mb-12" id="projects">
+          <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Projects Showcase</h2>
+          <p class="mt-4 text-lg text-[#9eb7a8]">Here are some of the projects I've worked on.</p>
+        </div>
+
+        <!-- Your Project Cards -->
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Project 1 -->
+          <div class="group relative flex flex-col rounded-2xl bg-[#1C2620] shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[#38e07b]/20">
+            <div class="flex flex-1 flex-col p-6">
+              <h3 class="text-xl font-bold">Auto Attendance Generator</h3>
+              <p class="mt-2 flex-grow text-[#9eb7a8]">An automated system to generate attendance records.</p>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="rounded-full bg-[#38e07b]/20 px-3 py-1 text-xs font-medium text-[#38e07b]">PHP</span>
+                <span class="rounded-full bg-[#38e07b]/20 px-3 py-1 text-xs font-medium text-[#38e07b]">JavaScript</span>
+                <span class="rounded-full bg-[#38e07b]/20 px-3 py-1 text-xs font-medium text-[#38e07b]">HTML</span>
+                <span class="rounded-full bg-[#38e07b]/20 px-3 py-1 text-xs font-medium text-[#38e07b]">CSS</span>
+                <span class="rounded-full bg-[#38e07b]/20 px-3 py-1 text-xs font-medium text-[#38e07b]">phpMyAdmin</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="group relative flex flex-col rounded-2xl bg-[#1C2620] shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[#38e07b]/20">
+            <div class="flex flex-1 flex-col p-6">
+              <h3 class="text-xl font-bold">Cricket Performance Prediction</h3>
+              <p class="mt-2 flex-grow text-[#9eb7a8]">A model predicting cricket player performance using historical data.</p>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="rounded-full bg-[#38e07b]/20 px-3 py-1 text-xs font-medium text-[#38e07b]">Python</span>
+                <span class="rounded-full bg-[#38e07b]/20 px-3 py-1 text-xs font-medium text-[#38e07b]">NumPy</span>
+                <span class="rounded-full bg-[#38e07b]/20 px-3 py-1 text-xs font-medium text-[#38e07b]">Pandas</span>
+                <span class="rounded-full bg-[#38e07b]/20 px-3 py-1 text-xs font-medium text-[#38e07b]">Scikit-learn</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="group relative flex flex-col rounded-2xl bg-[#1C2620] shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[#38e07b]/20">
+            <div class="flex flex-1 flex-col p-6">
+              <h3 class="text-xl font-bold">Bank Management System</h3>
+              <p class="mt-2 flex-grow text-[#9eb7a8]">A comprehensive system for managing bank operations.</p>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="rounded-full bg-[#38e07b]/20 px-3 py-1 text-xs font-medium text-[#38e07b]">PHP</span>
+                <span class="rounded-full bg-[#38e07b]/20 px-3 py-1 text-xs font-medium text-[#38e07b]">Bulma</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Project Cards -->
+
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

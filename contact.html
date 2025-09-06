@@ -1,0 +1,116 @@
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Spline+Sans%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-50: #f0fdf6;
+        --primary-100: #dffcee;
+        --primary-200: #c1f9de;
+        --primary-300: #8ef5c1;
+        --primary-400: #55ed9c;
+        --primary-500: #38e07b;
+        --primary-600: #25c062;
+        --primary-700: #1d964d;
+        --primary-800: #197740;
+        --primary-900: #156134;
+        --primary-950: #0c381d;
+      }
+      .gradient-bg {
+        background-image: linear-gradient(to right, var(--primary-500), var(--primary-300));
+      }
+      .hover-animation:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+</head>
+<body class="bg-[#111714] dark group/design-root" style='font-family: "Spline Sans", "Noto Sans", sans-serif;'>
+<div class="relative min-h-screen overflow-x-hidden text-gray-200">
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#29382f] bg-[#111714]/80 px-10 py-3 backdrop-blur-sm">
+<div class="flex items-center gap-4">
+<a class="flex items-center gap-2 text-white" href="#">
+<svg class="h-6 w-6 text-[var(--primary-500)]" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 45.8096C19.6865 45.8096 15.4698 44.5305 11.8832 42.134C8.29667 39.7376 5.50128 36.3314 3.85056 32.3462C2.19985 28.361 1.76794 23.9758 2.60947 19.7452C3.451 15.5145 5.52816 11.6284 8.57829 8.5783C11.6284 5.52817 15.5145 3.45101 19.7452 2.60948C23.9758 1.76795 28.361 2.19986 32.3462 3.85057C36.3314 5.50129 39.7376 8.29668 42.134 11.8833C44.5305 15.4698 45.8096 19.6865 45.8096 24L24 24L24 45.8096Z" fill="currentColor"></path>
+</svg>
+<h2 class="text-xl font-bold">Ishvari</h2>
+</a>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<nav class="hidden md:flex space-x-8">
+         <a href="homepage.html" class="text-gray-300 hover:text-[#38e07b] transition">Home</a>
+        <a href="about.html" class="text-gray-300 hover:text-[#38e07b] transition">About  </a>
+        <a href="projects.html" class="text-gray-300 hover:text-[#38e07b] transition">Projects</a>
+        <a href="experience.html" class="text-gray-300 hover:text-[#38e07b] transition">Experience</a>
+        <a href="contact.html" class="text-gray-300 hover:text-[#38e07b] transition">Contact</a>
+      </nav>
+    </nav>
+<div class="flex items-center gap-4">
+<button class="gradient-bg hover-animation flex h-10 cursor-pointer items-center justify-center overflow-hidden rounded-full px-6 text-sm font-bold text-[#111714] transition-transform">
+<a href="Ishvari.walunj_Resume.pdf"> <span>Download Resume</span></a>
+</button>
+</div>
+</header>
+<main class="px-4 py-16 sm:px-6 lg:px-8">
+<section class="container mx-auto max-w-4xl scroll-mt-20" id="contact">
+<div class="mb-12 text-center">
+<h2 class="text-4xl font-bold tracking-tight text-white sm:text-5xl">Get in Touch</h2>
+<p class="mt-4 text-lg text-[#9eb7a8]">I'm always excited to discuss new opportunities and projects. Feel free to reach out.</p>
+</div>
+<div class="grid grid-cols-1 gap-12 md:grid-cols-2">
+<div class="flex flex-col items-center justify-center space-y-8 rounded-2xl bg-[#1c2620] p-8">
+<div class="text-center">
+<h3 class="text-2xl font-bold text-white">Contact Information</h3>
+<p class="mt-2 text-[#9eb7a8]">Find me on these platforms</p>
+</div>
+<div class="flex flex-wrap justify-center gap-4">
+<a class="flex h-12 w-12 items-center justify-center rounded-full bg-[#29382f] text-white transition-colors hover:bg-[var(--primary-700)]" href="mailto:ishvari@example.com">
+<span class="material-symbols-outlined"> mail </span>
+</a>
+ <div class="flex space-x-4">
+        <a href="https://github.com/" target="_blank" class="p-2 rounded-full hover:bg-gray-800 transition">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="h-6 w-6">
+        </a>
+        <a href="https://linkedin.com/" target="_blank" class="p-2 rounded-full hover:bg-gray-800 transition">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="h-6 w-6">
+        </a>
+      </div>
+</div>
+</div>
+<form class="space-y-6">
+<div>
+<label class="sr-only" for="name">Your Name</label>
+<input class="form-input block w-full resize-none rounded-xl border border-[#3d5245] bg-[#1c2620] p-4 text-base text-white placeholder:text-[#9eb7a8] focus:border-[var(--primary-500)] focus:outline-0 focus:ring focus:ring-[var(--primary-500)] focus:ring-opacity-50" id="name" name="name" placeholder="Your Name" required="" type="text"/>
+</div>
+<div>
+<label class="sr-only" for="email">Your Email</label>
+<input class="form-input block w-full resize-none rounded-xl border border-[#3d5245] bg-[#1c2620] p-4 text-base text-white placeholder:text-[#9eb7a8] focus:border-[var(--primary-500)] focus:outline-0 focus:ring focus:ring-[var(--primary-500)] focus:ring-opacity-50" id="email" name="email" placeholder="Your Email" required="" type="email"/>
+</div>
+<div>
+<label class="sr-only" for="message">Your Message</label>
+<textarea class="form-textarea block w-full resize-none rounded-xl border border-[#3d5245] bg-[#1c2620] p-4 text-base text-white placeholder:text-[#9eb7a8] focus:border-[var(--primary-500)] focus:outline-0 focus:ring focus:ring-[var(--primary-500)] focus:ring-opacity-50" id="message" name="message" placeholder="Your Message" required="" rows="5"></textarea>
+</div>
+<div>
+<button class="gradient-bg hover-animation flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-full py-3 px-6 text-base font-bold text-[#111714] transition-transform sm:w-auto" type="submit">
+                  Send Message
+                </button>
+</div>
+</form>
+</div>
+</section>
+</main>
+<footer class="border-t border-solid border-[#29382f] bg-[#111714]">
+<div class="container mx-auto max-w-7xl px-6 py-8">
+<p class="text-center text-sm text-[#9eb7a8]">© 2025 Ishvari. All rights reserved.</p>
+</div>
+</footer>
+<button aria-label="Scroll to top" class="fixed bottom-8 right-8 z-50 flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-[var(--primary-500)] text-[#111714] shadow-lg transition-transform hover:scale-110">
+<span class="material-symbols-outlined"> arrow_upward </span>
+</button>
+</div>
+
+</body></html>
